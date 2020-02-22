@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841DD86C23F1C8F6000B4CF4 /* PersonDocumentsBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841DD86623F1C8F5000B4CF4 /* PersonDocumentsBase.swift */; };
+		841DD86D23F1C8F6000B4CF4 /* PersonDocumentsResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841DD86723F1C8F5000B4CF4 /* PersonDocumentsResult.swift */; };
+		841DD86E23F1C8F6000B4CF4 /* PersonDocumentsPaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841DD86823F1C8F5000B4CF4 /* PersonDocumentsPaging.swift */; };
+		841DD86F23F1C8F6000B4CF4 /* PersonDocumentsPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841DD86923F1C8F5000B4CF4 /* PersonDocumentsPerson.swift */; };
+		841DD87023F1C8F6000B4CF4 /* PersonDocumentsDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841DD86A23F1C8F5000B4CF4 /* PersonDocumentsDoctor.swift */; };
+		841DD87123F1C8F6000B4CF4 /* PersonDocuments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841DD86B23F1C8F5000B4CF4 /* PersonDocuments.swift */; };
+		841DD87523F1D289000B4CF4 /* PersonDocumentsMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841DD87423F1D289000B4CF4 /* PersonDocumentsMainView.swift */; };
+		841DD87723F1D2A2000B4CF4 /* PersonMedicamentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841DD87623F1D2A2000B4CF4 /* PersonMedicamentsView.swift */; };
+		841DD87923F1D2C0000B4CF4 /* PersonPaymentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841DD87823F1D2C0000B4CF4 /* PersonPaymentsView.swift */; };
+		841DD87B23F1DD9F000B4CF4 /* PersonDocumentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841DD87A23F1DD9F000B4CF4 /* PersonDocumentsController.swift */; };
+		842D291B23F56D810023C0B4 /* PersonMedicamentsDrug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D291223F56D810023C0B4 /* PersonMedicamentsDrug.swift */; };
+		842D291C23F56D810023C0B4 /* PersonMedicamentsBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D291323F56D810023C0B4 /* PersonMedicamentsBase.swift */; };
+		842D291D23F56D810023C0B4 /* PersonMedicamentsLot_list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D291423F56D810023C0B4 /* PersonMedicamentsLot_list.swift */; };
+		842D291E23F56D810023C0B4 /* PersonMedicamentsPaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D291523F56D810023C0B4 /* PersonMedicamentsPaging.swift */; };
+		842D291F23F56D810023C0B4 /* PersonMedicaments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D291623F56D810023C0B4 /* PersonMedicaments.swift */; };
+		842D292023F56D810023C0B4 /* PersonMedicamentsUser_lot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D291723F56D810023C0B4 /* PersonMedicamentsUser_lot.swift */; };
+		842D292123F56D810023C0B4 /* PersonMedicamentsPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D291823F56D810023C0B4 /* PersonMedicamentsPerson.swift */; };
+		842D292223F56D810023C0B4 /* PersonMedicamentsResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D291923F56D810023C0B4 /* PersonMedicamentsResult.swift */; };
+		842D292323F56D810023C0B4 /* PersonMedicamentsDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D291A23F56D810023C0B4 /* PersonMedicamentsDoctor.swift */; };
+		842D292A23F570C60023C0B4 /* PersonPaymentsUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D292523F570C60023C0B4 /* PersonPaymentsUser.swift */; };
+		842D292B23F570C60023C0B4 /* PersonPaymentsPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D292623F570C60023C0B4 /* PersonPaymentsPerson.swift */; };
+		842D292C23F570C60023C0B4 /* PersonPaymentsBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D292723F570C60023C0B4 /* PersonPaymentsBase.swift */; };
+		842D292D23F570C60023C0B4 /* PersonPaymentsResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D292823F570C60023C0B4 /* PersonPaymentsResult.swift */; };
+		842D292E23F570C60023C0B4 /* PersonPayments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D292923F570C60023C0B4 /* PersonPayments.swift */; };
+		842D293023F571960023C0B4 /* PersonPaymentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D292F23F571960023C0B4 /* PersonPaymentsController.swift */; };
+		8453ED6623F18F1300627C51 /* PersonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453ED6423F18F1300627C51 /* PersonDetail.swift */; };
+		8453ED6723F18F1300627C51 /* PersonDetailResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453ED6523F18F1300627C51 /* PersonDetailResult.swift */; };
+		8453ED6923F193DD00627C51 /* PersonSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453ED6823F193DD00627C51 /* PersonSearchController.swift */; };
+		845D11F323F5A3FD00F43F24 /* PersonMedicamentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D11F223F5A3FD00F43F24 /* PersonMedicamentsController.swift */; };
+		84D9FAE323E81FD700F97294 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FAE223E81FD700F97294 /* AppDelegate.swift */; };
+		84D9FAE523E81FD700F97294 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FAE423E81FD700F97294 /* SceneDelegate.swift */; };
+		84D9FAE823E81FD700F97294 /* medsoftuz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FAE623E81FD700F97294 /* medsoftuz.xcdatamodeld */; };
+		84D9FAEA23E81FD700F97294 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FAE923E81FD700F97294 /* ContentView.swift */; };
+		84D9FAEC23E81FD700F97294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D9FAEB23E81FD700F97294 /* Assets.xcassets */; };
+		84D9FAEF23E81FD700F97294 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D9FAEE23E81FD700F97294 /* Preview Assets.xcassets */; };
+		84D9FAF223E81FD700F97294 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D9FAF023E81FD700F97294 /* LaunchScreen.storyboard */; };
+		84D9FAFB23E8204100F97294 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FAFA23E8204100F97294 /* Network.swift */; };
+		84D9FB0323E821B600F97294 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FB0023E821B600F97294 /* Person.swift */; };
+		84D9FB0423E821B600F97294 /* PersonInfoBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FB0123E821B600F97294 /* PersonInfoBase.swift */; };
+		84D9FB0523E821B700F97294 /* PersonInfoResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9FB0223E821B600F97294 /* PersonInfoResult.swift */; };
+		84F79D3923E82A3100149546 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F79D3823E82A3100149546 /* MenuView.swift */; };
+		84F79D3B23E84F0600149546 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F79D3A23E84F0600149546 /* ViewRouter.swift */; };
+		84F79D3D23E8559B00149546 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F79D3C23E8559B00149546 /* Profile.swift */; };
+		84F79D4123E88FDC00149546 /* CustomTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F79D4023E88FDC00149546 /* CustomTransitions.swift */; };
+		84F9EF8323ECB64B007366AD /* PersonInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9EF8223ECB64B007366AD /* PersonInfoController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		841DD86623F1C8F5000B4CF4 /* PersonDocumentsBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDocumentsBase.swift; sourceTree = "<group>"; };
+		841DD86723F1C8F5000B4CF4 /* PersonDocumentsResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDocumentsResult.swift; sourceTree = "<group>"; };
+		841DD86823F1C8F5000B4CF4 /* PersonDocumentsPaging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDocumentsPaging.swift; sourceTree = "<group>"; };
+		841DD86923F1C8F5000B4CF4 /* PersonDocumentsPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDocumentsPerson.swift; sourceTree = "<group>"; };
+		841DD86A23F1C8F5000B4CF4 /* PersonDocumentsDoctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDocumentsDoctor.swift; sourceTree = "<group>"; };
+		841DD86B23F1C8F5000B4CF4 /* PersonDocuments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDocuments.swift; sourceTree = "<group>"; };
+		841DD87423F1D289000B4CF4 /* PersonDocumentsMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDocumentsMainView.swift; sourceTree = "<group>"; };
+		841DD87623F1D2A2000B4CF4 /* PersonMedicamentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonMedicamentsView.swift; sourceTree = "<group>"; };
+		841DD87823F1D2C0000B4CF4 /* PersonPaymentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonPaymentsView.swift; sourceTree = "<group>"; };
+		841DD87A23F1DD9F000B4CF4 /* PersonDocumentsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDocumentsController.swift; sourceTree = "<group>"; };
+		842D291223F56D810023C0B4 /* PersonMedicamentsDrug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonMedicamentsDrug.swift; sourceTree = "<group>"; };
+		842D291323F56D810023C0B4 /* PersonMedicamentsBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonMedicamentsBase.swift; sourceTree = "<group>"; };
+		842D291423F56D810023C0B4 /* PersonMedicamentsLot_list.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonMedicamentsLot_list.swift; sourceTree = "<group>"; };
+		842D291523F56D810023C0B4 /* PersonMedicamentsPaging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonMedicamentsPaging.swift; sourceTree = "<group>"; };
+		842D291623F56D810023C0B4 /* PersonMedicaments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonMedicaments.swift; sourceTree = "<group>"; };
+		842D291723F56D810023C0B4 /* PersonMedicamentsUser_lot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonMedicamentsUser_lot.swift; sourceTree = "<group>"; };
+		842D291823F56D810023C0B4 /* PersonMedicamentsPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonMedicamentsPerson.swift; sourceTree = "<group>"; };
+		842D291923F56D810023C0B4 /* PersonMedicamentsResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonMedicamentsResult.swift; sourceTree = "<group>"; };
+		842D291A23F56D810023C0B4 /* PersonMedicamentsDoctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonMedicamentsDoctor.swift; sourceTree = "<group>"; };
+		842D292523F570C60023C0B4 /* PersonPaymentsUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonPaymentsUser.swift; sourceTree = "<group>"; };
+		842D292623F570C60023C0B4 /* PersonPaymentsPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonPaymentsPerson.swift; sourceTree = "<group>"; };
+		842D292723F570C60023C0B4 /* PersonPaymentsBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonPaymentsBase.swift; sourceTree = "<group>"; };
+		842D292823F570C60023C0B4 /* PersonPaymentsResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonPaymentsResult.swift; sourceTree = "<group>"; };
+		842D292923F570C60023C0B4 /* PersonPayments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonPayments.swift; sourceTree = "<group>"; };
+		842D292F23F571960023C0B4 /* PersonPaymentsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonPaymentsController.swift; sourceTree = "<group>"; };
+		8453ED6423F18F1300627C51 /* PersonDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetail.swift; sourceTree = "<group>"; };
+		8453ED6523F18F1300627C51 /* PersonDetailResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetailResult.swift; sourceTree = "<group>"; };
+		8453ED6823F193DD00627C51 /* PersonSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSearchController.swift; sourceTree = "<group>"; };
+		845D11F223F5A3FD00F43F24 /* PersonMedicamentsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonMedicamentsController.swift; sourceTree = "<group>"; };
+		84D9FADF23E81FD700F97294 /* medsoftuz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = medsoftuz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D9FAE223E81FD700F97294 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84D9FAE423E81FD700F97294 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84D9FAE723E81FD700F97294 /* medsoftuz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = medsoftuz.xcdatamodel; sourceTree = "<group>"; };
+		84D9FAE923E81FD700F97294 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84D9FAEB23E81FD700F97294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84D9FAEE23E81FD700F97294 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84D9FAF123E81FD700F97294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84D9FAF323E81FD700F97294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D9FAFA23E8204100F97294 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		84D9FB0023E821B600F97294 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		84D9FB0123E821B600F97294 /* PersonInfoBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonInfoBase.swift; sourceTree = "<group>"; };
+		84D9FB0223E821B600F97294 /* PersonInfoResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonInfoResult.swift; sourceTree = "<group>"; };
+		84F79D3823E82A3100149546 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		84F79D3A23E84F0600149546 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		84F79D3C23E8559B00149546 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		84F79D4023E88FDC00149546 /* CustomTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitions.swift; sourceTree = "<group>"; };
+		84F9EF8223ECB64B007366AD /* PersonInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D9FADC23E81FD700F97294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		841DD85923F1C57D000B4CF4 /* PersonDocuments */ = {
+			isa = PBXGroup;
+			children = (
+				841DD86B23F1C8F5000B4CF4 /* PersonDocuments.swift */,
+				841DD86623F1C8F5000B4CF4 /* PersonDocumentsBase.swift */,
+				841DD86A23F1C8F5000B4CF4 /* PersonDocumentsDoctor.swift */,
+				841DD86823F1C8F5000B4CF4 /* PersonDocumentsPaging.swift */,
+				841DD86923F1C8F5000B4CF4 /* PersonDocumentsPerson.swift */,
+				841DD86723F1C8F5000B4CF4 /* PersonDocumentsResult.swift */,
+			);
+			path = PersonDocuments;
+			sourceTree = "<group>";
+		};
+		842D28FF23F569650023C0B4 /* PersonMedicaments */ = {
+			isa = PBXGroup;
+			children = (
+				842D291623F56D810023C0B4 /* PersonMedicaments.swift */,
+				842D291323F56D810023C0B4 /* PersonMedicamentsBase.swift */,
+				842D291A23F56D810023C0B4 /* PersonMedicamentsDoctor.swift */,
+				842D291223F56D810023C0B4 /* PersonMedicamentsDrug.swift */,
+				842D291423F56D810023C0B4 /* PersonMedicamentsLot_list.swift */,
+				842D291523F56D810023C0B4 /* PersonMedicamentsPaging.swift */,
+				842D291823F56D810023C0B4 /* PersonMedicamentsPerson.swift */,
+				842D291923F56D810023C0B4 /* PersonMedicamentsResult.swift */,
+				842D291723F56D810023C0B4 /* PersonMedicamentsUser_lot.swift */,
+			);
+			path = PersonMedicaments;
+			sourceTree = "<group>";
+		};
+		842D292423F570AB0023C0B4 /* PersonPayments */ = {
+			isa = PBXGroup;
+			children = (
+				842D292923F570C60023C0B4 /* PersonPayments.swift */,
+				842D292723F570C60023C0B4 /* PersonPaymentsBase.swift */,
+				842D292623F570C60023C0B4 /* PersonPaymentsPerson.swift */,
+				842D292823F570C60023C0B4 /* PersonPaymentsResult.swift */,
+				842D292523F570C60023C0B4 /* PersonPaymentsUser.swift */,
+			);
+			path = PersonPayments;
+			sourceTree = "<group>";
+		};
+		84D9FAD623E81FD700F97294 = {
+			isa = PBXGroup;
+			children = (
+				84D9FAE123E81FD700F97294 /* medsoftuz */,
+				84D9FAE023E81FD700F97294 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84D9FAE023E81FD700F97294 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D9FADF23E81FD700F97294 /* medsoftuz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D9FAE123E81FD700F97294 /* medsoftuz */ = {
+			isa = PBXGroup;
+			children = (
+				84F79D3723E82A1F00149546 /* UI */,
+				84D9FAFC23E820D200F97294 /* Models */,
+				84D9FAF923E8200A00F97294 /* Controller */,
+				84D9FAE223E81FD700F97294 /* AppDelegate.swift */,
+				84D9FAE423E81FD700F97294 /* SceneDelegate.swift */,
+				84D9FAE923E81FD700F97294 /* ContentView.swift */,
+				84D9FAEB23E81FD700F97294 /* Assets.xcassets */,
+				84D9FAF023E81FD700F97294 /* LaunchScreen.storyboard */,
+				84D9FAF323E81FD700F97294 /* Info.plist */,
+				84D9FAE623E81FD700F97294 /* medsoftuz.xcdatamodeld */,
+				84D9FAED23E81FD700F97294 /* Preview Content */,
+				84F79D3A23E84F0600149546 /* ViewRouter.swift */,
+			);
+			path = medsoftuz;
+			sourceTree = "<group>";
+		};
+		84D9FAED23E81FD700F97294 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84D9FAEE23E81FD700F97294 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84D9FAF923E8200A00F97294 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84D9FAFA23E8204100F97294 /* Network.swift */,
+				84F9EF8223ECB64B007366AD /* PersonInfoController.swift */,
+				8453ED6823F193DD00627C51 /* PersonSearchController.swift */,
+				841DD87A23F1DD9F000B4CF4 /* PersonDocumentsController.swift */,
+				842D292F23F571960023C0B4 /* PersonPaymentsController.swift */,
+				845D11F223F5A3FD00F43F24 /* PersonMedicamentsController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84D9FAFC23E820D200F97294 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				842D292423F570AB0023C0B4 /* PersonPayments */,
+				842D28FF23F569650023C0B4 /* PersonMedicaments */,
+				841DD85923F1C57D000B4CF4 /* PersonDocuments */,
+				84D9FAFF23E8218C00F97294 /* Person */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84D9FAFF23E8218C00F97294 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				8453ED6423F18F1300627C51 /* PersonDetail.swift */,
+				8453ED6523F18F1300627C51 /* PersonDetailResult.swift */,
+				84D9FB0123E821B600F97294 /* PersonInfoBase.swift */,
+				84D9FB0023E821B600F97294 /* Person.swift */,
+				84D9FB0223E821B600F97294 /* PersonInfoResult.swift */,
+			);
+			path = Person;
+			sourceTree = "<group>";
+		};
+		84F79D3723E82A1F00149546 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				84F79D3823E82A3100149546 /* MenuView.swift */,
+				84F79D3C23E8559B00149546 /* Profile.swift */,
+				84F79D4023E88FDC00149546 /* CustomTransitions.swift */,
+				841DD87423F1D289000B4CF4 /* PersonDocumentsMainView.swift */,
+				841DD87623F1D2A2000B4CF4 /* PersonMedicamentsView.swift */,
+				841DD87823F1D2C0000B4CF4 /* PersonPaymentsView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D9FADE23E81FD700F97294 /* medsoftuz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D9FAF623E81FD700F97294 /* Build configuration list for PBXNativeTarget "medsoftuz" */;
+			buildPhases = (
+				84D9FADB23E81FD700F97294 /* Sources */,
+				84D9FADC23E81FD700F97294 /* Frameworks */,
+				84D9FADD23E81FD700F97294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = medsoftuz;
+			productName = medsoftuz;
+			productReference = 84D9FADF23E81FD700F97294 /* medsoftuz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D9FAD723E81FD700F97294 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					84D9FADE23E81FD700F97294 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 84D9FADA23E81FD700F97294 /* Build configuration list for PBXProject "medsoftuz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D9FAD623E81FD700F97294;
+			productRefGroup = 84D9FAE023E81FD700F97294 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D9FADE23E81FD700F97294 /* medsoftuz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D9FADD23E81FD700F97294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D9FAF223E81FD700F97294 /* LaunchScreen.storyboard in Resources */,
+				84D9FAEF23E81FD700F97294 /* Preview Assets.xcassets in Resources */,
+				84D9FAEC23E81FD700F97294 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D9FADB23E81FD700F97294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842D292C23F570C60023C0B4 /* PersonPaymentsBase.swift in Sources */,
+				84D9FB0323E821B600F97294 /* Person.swift in Sources */,
+				841DD87923F1D2C0000B4CF4 /* PersonPaymentsView.swift in Sources */,
+				845D11F323F5A3FD00F43F24 /* PersonMedicamentsController.swift in Sources */,
+				842D292A23F570C60023C0B4 /* PersonPaymentsUser.swift in Sources */,
+				84D9FAFB23E8204100F97294 /* Network.swift in Sources */,
+				841DD86D23F1C8F6000B4CF4 /* PersonDocumentsResult.swift in Sources */,
+				84D9FAE823E81FD700F97294 /* medsoftuz.xcdatamodeld in Sources */,
+				842D292D23F570C60023C0B4 /* PersonPaymentsResult.swift in Sources */,
+				842D291E23F56D810023C0B4 /* PersonMedicamentsPaging.swift in Sources */,
+				84F79D4123E88FDC00149546 /* CustomTransitions.swift in Sources */,
+				84D9FAE323E81FD700F97294 /* AppDelegate.swift in Sources */,
+				842D292023F56D810023C0B4 /* PersonMedicamentsUser_lot.swift in Sources */,
+				8453ED6623F18F1300627C51 /* PersonDetail.swift in Sources */,
+				8453ED6723F18F1300627C51 /* PersonDetailResult.swift in Sources */,
+				842D292323F56D810023C0B4 /* PersonMedicamentsDoctor.swift in Sources */,
+				84F79D3923E82A3100149546 /* MenuView.swift in Sources */,
+				842D291C23F56D810023C0B4 /* PersonMedicamentsBase.swift in Sources */,
+				8453ED6923F193DD00627C51 /* PersonSearchController.swift in Sources */,
+				841DD87723F1D2A2000B4CF4 /* PersonMedicamentsView.swift in Sources */,
+				842D292B23F570C60023C0B4 /* PersonPaymentsPerson.swift in Sources */,
+				84F79D3B23E84F0600149546 /* ViewRouter.swift in Sources */,
+				841DD87123F1C8F6000B4CF4 /* PersonDocuments.swift in Sources */,
+				842D291B23F56D810023C0B4 /* PersonMedicamentsDrug.swift in Sources */,
+				842D292223F56D810023C0B4 /* PersonMedicamentsResult.swift in Sources */,
+				84D9FAEA23E81FD700F97294 /* ContentView.swift in Sources */,
+				841DD87B23F1DD9F000B4CF4 /* PersonDocumentsController.swift in Sources */,
+				841DD86C23F1C8F6000B4CF4 /* PersonDocumentsBase.swift in Sources */,
+				84D9FB0423E821B600F97294 /* PersonInfoBase.swift in Sources */,
+				842D291D23F56D810023C0B4 /* PersonMedicamentsLot_list.swift in Sources */,
+				841DD87023F1C8F6000B4CF4 /* PersonDocumentsDoctor.swift in Sources */,
+				841DD86F23F1C8F6000B4CF4 /* PersonDocumentsPerson.swift in Sources */,
+				84F79D3D23E8559B00149546 /* Profile.swift in Sources */,
+				84F9EF8323ECB64B007366AD /* PersonInfoController.swift in Sources */,
+				841DD87523F1D289000B4CF4 /* PersonDocumentsMainView.swift in Sources */,
+				842D291F23F56D810023C0B4 /* PersonMedicaments.swift in Sources */,
+				842D292123F56D810023C0B4 /* PersonMedicamentsPerson.swift in Sources */,
+				841DD86E23F1C8F6000B4CF4 /* PersonDocumentsPaging.swift in Sources */,
+				84D9FB0523E821B700F97294 /* PersonInfoResult.swift in Sources */,
+				84D9FAE523E81FD700F97294 /* SceneDelegate.swift in Sources */,
+				842D292E23F570C60023C0B4 /* PersonPayments.swift in Sources */,
+				842D293023F571960023C0B4 /* PersonPaymentsController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84D9FAF023E81FD700F97294 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D9FAF123E81FD700F97294 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84D9FAF423E81FD700F97294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84D9FAF523E81FD700F97294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D9FAF723E81FD700F97294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"medsoftuz/Preview Content\"";
+				DEVELOPMENT_TEAM = QXSYQXQB5J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = medsoftuz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = home.medsoftuz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84D9FAF823E81FD700F97294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"medsoftuz/Preview Content\"";
+				DEVELOPMENT_TEAM = QXSYQXQB5J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = medsoftuz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = home.medsoftuz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D9FADA23E81FD700F97294 /* Build configuration list for PBXProject "medsoftuz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D9FAF423E81FD700F97294 /* Debug */,
+				84D9FAF523E81FD700F97294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D9FAF623E81FD700F97294 /* Build configuration list for PBXNativeTarget "medsoftuz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D9FAF723E81FD700F97294 /* Debug */,
+				84D9FAF823E81FD700F97294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84D9FAE623E81FD700F97294 /* medsoftuz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84D9FAE723E81FD700F97294 /* medsoftuz.xcdatamodel */,
+			);
+			currentVersion = 84D9FAE723E81FD700F97294 /* medsoftuz.xcdatamodel */;
+			path = medsoftuz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84D9FAD723E81FD700F97294 /* Project object */;
+}
